@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import Weather from "./weather/weather.vue";
-import Clock from "./time/clock.vue"
+import Weather from './weather/weather.vue';
+import Clock from './time/clock.vue';
 </script>
 
 <template>
@@ -9,14 +9,14 @@ import Clock from "./time/clock.vue"
       <Clock />
     </section>
     <section class="weather">
-      <Weather api-key="51310ba1835a914983b3139c03f6733f" city="Paphos" />
+      <Weather api-key="51310ba1835a914983b3139c03f6733f" city="Zhytomyr" />
     </section>
   </header>
 </template>
 
 <style>
 header {
-  animation: fade 1s cubic-bezier(.17, .67, .83, .67);
+  animation: fade 1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
   display: none;
   flex: 0 1 auto;
   flex-direction: row;
