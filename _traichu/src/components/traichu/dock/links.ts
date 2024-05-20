@@ -13,6 +13,8 @@ const calendar = 'https://calendar.google.com';
 const googleMail = 'https://mail.google.com';
 const discord = 'https://discord.com/app';
 const tuta = 'https://tuta.io';
+const monkeyType = 'https://monkeytype.com/';
+const chessCom = 'https://chess.com';
 
 export const links: Link[] = [
   { href: googleMail, icon: mailIcon, bind: 'm' },
@@ -23,5 +25,6 @@ export const links: Link[] = [
   { href: gitlab, bind: 'G' },
   { href: discord, bind: 'D' },
   { href: tuta, bind: 'M' },
-  { href: 'https://chess.com', bind: 'C' },
+  { href: chessCom, bind: 'C' },
+  { href: monkeyType, bind: 'E' },
 ];
